@@ -6,9 +6,16 @@ body {
 
 /* navigation bar */
 .menu {
-	background-color: #5E5D5D;
-	color: white;
+	background: url(../images/carbon-fiber.png);
 	font-size: 20px;
+}
+
+.menu a {
+	color: white;
+}
+
+.sub-menu a {
+	color: white;
 }
 
 .menu li {
@@ -47,7 +54,7 @@ ul:hover .sub-menu {
 	color: white;
 }
 
-h1 {
+{
 	text-align: center;
 	font-size: 60px;
 	font-family: 'Exo 2', sans-serif;
@@ -67,8 +74,8 @@ h1 {
 }
 
 .bio h2{
-	padding-bottom: 15px;
 	font-family: 'Exo 2', sans-serif;
+	font-size: 30px;
 	font-weight: 600;
 }
 
@@ -76,6 +83,7 @@ h1 {
 	width: 350px;
 	margin-left: 540px;
 	font-family: 'Exo 2', sans-serif;
+	font-size: 20px;
 }
 
 /* contact links */
@@ -93,12 +101,42 @@ h1 {
 div {
 	color: white;
 	text-align: left;
+	font-size: 30px;
 }
 
-h1 {
-	text-align: left;
+h2 {
+	text-align: center;
 }
 
+/* Experience */
 .title {
 	text-align: center;
 }
+
+.experience {
+	margin-left: 500px;
+}
+
+.experience h2 {
+	text-align: center;
+	padding: 15px;
+	margin-right: 500px;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.experience p {
+	padding: 15px;
+	min-width: 150px;
+	max-width: 400px;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 20px;
+}
+
+/* Relevant Experience */
+.experience .deliverable {
+	margin-left: -75px;
+}
+/* Education */
