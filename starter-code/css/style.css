@@ -1,3 +1,4 @@
+/* about webpage */
 /* website background */
 body {
 	background: url(../images/wood-background.png);
@@ -85,4 +86,19 @@ h1 {
 
 .contact-links a{
 	padding: 15px;
+}
+
+/* portfolio webpage */
+
+div {
+	color: white;
+	text-align: left;
+}
+
+h1 {
+	text-align: left;
+}
+
+.title {
+	text-align: center;
 }
