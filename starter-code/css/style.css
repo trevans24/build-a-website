@@ -1,10 +1,38 @@
-nav {
-	background-color: blue;
-	height: 100px;
+.navigation {
+
 }
 
-nav {
-	height: 100px;
-	min-width: 100px;
+.menu {
+	background-color: #5E5D5D;
+	color: #D8D8D8;
+	font-size: 20px;
 }
 
+.menu li {
+	display: inline-block;
+	padding: 5px 20px;
+	position: relative;
+}
+
+.menu li:hover{
+	background-color: #383838;
+}
+
+ul.sub-menu {
+	position: absolute;
+	background-color: #383838;
+	width: 150px;
+	margin-left: 189px;
+}
+
+.sub-menu {
+	opacity: 0;
+}
+
+ul:hover .sub-menu {
+	opacity: 1;
+}
+
+.sub-menu li:hover {
+	background-color: #5E5D5D;
+}
