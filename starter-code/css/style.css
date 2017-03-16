@@ -1,0 +1,10 @@
+nav {
+	background-color: blue;
+	height: 100px;
+}
+
+nav {
+	height: 100px;
+	min-width: 100px;
+}
+
