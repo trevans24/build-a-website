@@ -52,6 +52,7 @@ ul:hover .sub-menu {
 	height: 20px;
 	padding: 25px;
 	color: white;
+	opacity: .7;
 }
 
 {
@@ -71,6 +72,7 @@ ul:hover .sub-menu {
 	text-align: center;
 	padding-bottom: 15px;
 	color: white;
+	opacity: .7;
 }
 
 .bio h2{
@@ -102,6 +104,7 @@ div {
 	color: white;
 	text-align: left;
 	font-size: 30px;
+	opacity: .7;
 }
 
 h2 {
@@ -111,6 +114,9 @@ h2 {
 /* Experience */
 .title {
 	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
 }
 
 .experience {
