@@ -1,7 +1,4 @@
-.navigation {
-
-}
-
+/* navigation bar */
 .menu {
 	background-color: #5E5D5D;
 	color: #D8D8D8;
@@ -35,4 +32,50 @@ ul:hover .sub-menu {
 
 .sub-menu li:hover {
 	background-color: #5E5D5D;
+}
+
+/* Name and Headshot */
+.name {
+	height: 20px;
+	padding: 25px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 600;
+}
+
+.headshot {
+	margin-left: 575px;
+	padding-bottom: 30px;	
+}
+
+/* bio section */
+.bio {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.bio h2{
+	padding-bottom: 15px;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 600;
+}
+
+.bio p{
+	width: 350px;
+	margin-left: 540px;
+	font-family: 'Exo 2', sans-serif;
+}
+
+/* contact links */
+.contact-links{
+	padding: 10px;
+	margin-left: 545px;
+}
+
+.contact-links a{
+	padding: 15px;
 }
